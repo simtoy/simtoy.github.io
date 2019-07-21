@@ -18,10 +18,3 @@
 &nbsp;
 大家好, 我是阿杰, 别人都叫我杰哥, 我也常来这里玩, 我家房子还蛮大的, 欢迎你们来我家玩, 累了就可以直接睡的那种. 如果你们跟我回家的话,我一会儿还会带你们去超商买点吃的 
 	</div>
-</div>
-<div class="A">
-<h1 class="auto-style1">&nbsp; 好♂康之物(我的项目)&nbsp; </h1>
-	<p class="auto-style1">&nbsp;&nbsp;
-<button>Simtoy程序语言</button>
-	</p>
-</div>
