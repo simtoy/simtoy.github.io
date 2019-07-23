@@ -617,8 +617,18 @@ Bark(<Hello world!>)
 **遍历2000年到3000年之间的所有闰年**
 ```
 say(year,2000)
-cy(3000,year)
-sin(isLeap(&year))->bark(<&year, is leap>)->nis.
+cy(3000,year,1)
+sin(isLeap(&year))->bark({&year, is leap})->nis.
 yc.
+```
+**调用以列表里的值为函数名的函数**
+```
+cab(Ani,dog,cat,fish,pig,duck)
+pro(dog)->bark(wooof...)->orp.
+pro(cat)->bark(meow...)->orp.
+pro(fish)->bark(kurukuru...)->orp.
+pro(pig)->bark(nnng...)->orp.
+pro(duck)->bark(gha...)->orp.
+ec(Ani,temp)->go(&temp)->ce.
 ```
 And so on...
