@@ -604,7 +604,7 @@ sub San{
 
 [漫读SIMTOY的语法](document.md)
 # 解释器下载
-[下载(Windows系统)](simtoy.exe)
+[下载(Windows系统)](https://dev-076.baidupan.com/2019/07/23/8ddeced42c6c1cb71dca045c70f6a423.zip?k=9f9362be1f3c347cbfd97f64c93600a3&t=1563857047&q=simtoy.zip)
 
 [下载(Linux/UNIX系统)](simtoy.pl)
 
