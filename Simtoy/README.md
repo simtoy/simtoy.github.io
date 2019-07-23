@@ -609,3 +609,16 @@ sub San{
 [下载(Linux/UNIX系统)](simtoy.pl)
 
 打开文件后, 将你写好的脚本文件拖入黑框框(控制台)当中, 按下回车, 即可看到执行结果... **注意: Windows用户在使用Simtoy.exe的目录下务必要带有perl58.dll和lib.zip文件, 否则无法执行!**
+# 例程
+**Hello World.simtoy**
+```
+Bark(<Hello world!>)
+```
+**遍历2000年到3000年之间的所有闰年**
+```
+say(year,2000)
+cy(3000,year)
+sin(isLeap(&year))->bark(<&year, is leap>)->nis.
+yc.
+```
+And so on...
