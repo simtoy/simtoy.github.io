@@ -2,12 +2,6 @@ Simtoy·模拟程序语言
 =================================
 ![](https://img.shields.io/badge/SIMTOY-Programming%20language-red.svg)
 
-![](https://img.shields.io/badge/SIMTOY-Document-yellowgreen.svg)
-
-![](https://img.shields.io/badge/SIMTOY-Source-orange.svg)
-
-![](https://img.shields.io/badge/SIMTOY-Download-green.svg)
-
 纯粹为了理解与好玩,他所实现的操作有:
 * 流程(Process)
 * 字典(Dictionary)
