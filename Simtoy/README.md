@@ -14,7 +14,8 @@ Simtoy·模拟程序语言
 * 函数(Function)
 * 列表(Array)
 * 类(Class)
-
+# 源码
+该Simulator由Perl开发而成, 您可以[查看源码](src.md)
 # 文档
 语法不免有些奇怪(因为所有操作都以**函数**实现)
 
@@ -24,7 +25,7 @@ Simtoy·模拟程序语言
 
 [下载(Linux/UNIX系统)](simtoy.pl)
 
-打开文件后, 将你写好的脚本文件拖入黑框框(控制台)当中, 按下回车, 即可看到执行结果... **注意: Windows用户在使用Simtoy.exe的目录下务必要带有perl58.dll和lib.zip文件, 否则无法执行!**
+打开文件后, 将您写好的脚本文件拖入黑框框(控制台)当中, 按下回车, 即可看到执行结果... **注意: Windows用户在使用Simtoy.exe的目录下务必要带有perl58.dll和lib.zip文件, 否则无法执行!**
 # 例程
 **Hello World**
 ```
