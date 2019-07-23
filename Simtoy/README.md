@@ -23,7 +23,7 @@ Simtoy·模拟程序语言
 # 解释器下载
 [下载(Windows系统)](https://dev-076.baidupan.com/2019/07/23/8ddeced42c6c1cb71dca045c70f6a423.zip?k=9f9362be1f3c347cbfd97f64c93600a3&t=1563857047&q=simtoy.zip)
 
-[下载(Linux/UNIX系统)](simtoy.pl)
+[下载(Linux/UNIX系统)](https://simtoy.github.io/Simtoy/simtoy.pl)
 
 打开文件后, 将您写好的脚本文件拖入黑框框(控制台)当中, 按下回车, 即可看到执行结果... **注意: Windows用户在使用Simtoy.exe的目录下务必要带有perl58.dll和lib.zip文件, 否则无法执行!**
 # 例程
