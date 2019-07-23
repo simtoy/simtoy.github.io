@@ -610,25 +610,25 @@ sub San{
 
 打开文件后, 将你写好的脚本文件拖入黑框框(控制台)当中, 按下回车, 即可看到执行结果... **注意: Windows用户在使用Simtoy.exe的目录下务必要带有perl58.dll和lib.zip文件, 否则无法执行!**
 # 例程
-**Hello World.simtoy**
+**Hello World**
 ```
 Bark(<Hello world!>)
 ```
 **遍历2000年到3000年之间的所有闰年**
 ```
-say(year,2000)
+say(year,2000) :设置year的初始值为2000
 cy(3000,year,1)
 sin(isLeap(&year))->bark({&year, is leap})->nis.
 yc.
 ```
 **调用以列表里的值为函数名的函数**
 ```
-cab(Ani,dog,cat,fish,pig,duck)
+cab(Ani,dog,cat,fish,pig,duck) :创建叫'Ani'的列表并赋值
 pro(dog)->bark(wooof...)->orp.
 pro(cat)->bark(meow...)->orp.
 pro(fish)->bark(kurukuru...)->orp.
 pro(pig)->bark(nnng...)->orp.
 pro(duck)->bark(gha...)->orp.
-ec(Ani,temp)->go(&temp)->ce.
+ec(Ani,temp)->go(&temp)->ce. :循环调用以列表里的值为函数名的函数
 ```
 And so on...
