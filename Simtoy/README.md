@@ -23,23 +23,21 @@ Simtoy·模拟程序语言
 # 例程
 ※**Hello World**
 ```
-Bark(<Hello world!>)
+output("Hello, world!").
 ```
 ※**遍历2000年到3000年之间的所有闰年**
 ```
-say(year,2000) :设置year的初始值为2000
-cy(3000,year,1)
-sin(isLeap(&year))->bark({&year, is leap})->nis.
-yc.
+repeat(2000 to 3000 by 1 in year)
+if(isLeap(year))->output(year)->end
+end
 ```
 ※**调用以列表里的值为函数名的函数**
 ```
-cab(Ani,dog,cat,fish,pig,duck) :创建叫'Ani'的列表并赋值
-pro(dog)->bark(wooof...)->orp.
-pro(cat)->bark(meow...)->orp.
-pro(fish)->bark(kurukuru...)->orp.
-pro(pig)->bark(nnng...)->orp.
-pro(duck)->bark(gha...)->orp.
-ec(Ani,temp)->go(&temp)->ce. :循环调用以列表里的值为函数名的函数
+lt(names has "dog","cat","fish","duck")
+fn(dog)->output("Woooof!")->end
+fn(cat)->output("Meow!")->end
+fn(fish)->output("Kurukuru!")->end
+fn(duck)->output("Kakaka!")->end
+each(names in name)->go(name)->end
 ```
 And so on...
